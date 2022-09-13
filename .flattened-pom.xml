@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.kerwin612</groupId>
+  <artifactId>slbk-spring</artifactId>
+  <version>0.0.2</version>
+  <name>Sift log by key</name>
+  <description>Sift log by key</description>
+  <url>https://github.com/kerwin612/slbk-spring/</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>kerwin612</name>
+      <email>kerwin612@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/kerwin612/slbk-spring.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/kerwin612/slbk-spring.git</developerConnection>
+    <url>https://github.com/kerwin612/slbk-spring</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.9.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.kerwin612</groupId>
+      <artifactId>uhcs-spring</artifactId>
+      <version>0.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.hystrix</groupId>
+      <artifactId>hystrix-core</artifactId>
+      <version>1.5.18</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <version>2.5.4</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
